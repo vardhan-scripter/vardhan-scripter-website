@@ -53,6 +53,17 @@ a:focus {
     outline: none;
 }
 
+::-webkit-scrollbar {
+    width: 6px;
+    cursor: pointer;
+    background: #cdcfcf;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6589BA;
+    border-radius: 10px;
+}
+
 h1,
 h2,
 h3,
