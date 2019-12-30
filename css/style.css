@@ -53,17 +53,6 @@ a:focus {
     outline: none;
 }
 
-::-webkit-scrollbar {
-    width: 6px;
-    cursor: pointer;
-    background: #cdcfcf;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #6589BA;
-    border-radius: 10px;
-}
-
 h1,
 h2,
 h3,
@@ -1545,7 +1534,7 @@ button:focus {
 
 .prt_portfolio_text {
     position: absolute;
-    bottom: -111px;
+    bottom: -180px;
     left: 0px;
     width: 100%;
     text-align: left;

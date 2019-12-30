@@ -1,0 +1,53 @@
+.outer {
+    display: table;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.outer-fixed {
+    position: fixed;
+}
+
+.text-anchor {
+    padding-bottom: 5px;
+    background: linear-gradient(0deg, currentcolor, currentcolor) bottom center no-repeat;
+    background-size: 0px 3px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.text-anchor :hover {
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 2em;
+}
+
+.row {
+    padding-left: 3%;
+    padding-right: 3%
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skill-container {
+    -webkit-flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.skills-image {
+    width: 75px;
+    height: 75px;
+}
