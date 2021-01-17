@@ -30,7 +30,15 @@ Assigned to: ThemeForest
         if ($(".prt_loadmore:hidden").length == 0) {
             $("#load").fadeOut('slow');
         }
-    });
+	});
+	
+	// Age setup
+	var date = new Date();
+	var myAge = date.getFullYear()-1999;
+	$("#age").html(myAge);
+
+	// Year setup
+	$(".this-year").html(date.getFullYear());
 	
 	// for counter 
 	$('.timer').appear(function() {
